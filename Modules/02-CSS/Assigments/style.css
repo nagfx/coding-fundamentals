@@ -1,0 +1,22 @@
+
+.breadcrumb {  
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    background-color:lightgray;
+    list-style: none;
+  }
+  
+  .breadcrumb li { 
+    display: inline;
+  }
+  
+  .breadcrumb li a {
+    color: blue;
+  }
+
+li + li::before {
+content: "/";
+padding: 0 1rem;
+color: dimgrey;
+}
+
+
