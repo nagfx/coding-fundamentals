@@ -1,0 +1,46 @@
+body {
+    background-color: burlywood;
+}
+  
+  @media (max-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+    body {
+        background-color: green;
+    }
+    .desktop {
+        display: none;
+    }
+
+  }
+  
+  @media (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    body {
+        background-color: blue;
+        color: white;
+    }
+
+  }
+  @media (max-width: 640px) {
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+    body {
+        background-color: red;
+        
+    }
+    .mobile {
+        display: block;
+    }
+
+  }
