@@ -1,0 +1,60 @@
+.review-card {
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    height:220px;
+    width: 600px;
+    display: flex;
+    margin: 50px 40px;
+}
+
+.review-container {
+    height: 150px;
+    width: 500px;
+    margin: 30px 50px;
+}
+.review-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 9999px;
+    margin-top: 25px;
+}
+
+.review-first-row {
+    display:flex;
+}
+
+.review-first-row {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+.review-first-row h4 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    
+}
+.stars-container {
+    margin-left: 15px;
+}
+.stars {
+    color: rgb(255, 186, 13);
+    height: 17px;
+    width: 17px;
+}
+.stars-gray {
+    color: gray;
+    height: 15px;
+    width: 15px;
+}
+
+.review-wrapper {
+    margin: 2px 10px 2px 23px;
+}
+.review {
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
