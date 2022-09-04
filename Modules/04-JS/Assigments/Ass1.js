@@ -5,3 +5,4 @@ function sum(numbersArray) {
     return  result}
 
 sum([30,40])
+console.log(sum([1, 2, 3, 4]) === 10)
