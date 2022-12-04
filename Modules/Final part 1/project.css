@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+
+.logo-holder img {
+    width: 340px;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    height: 40px;
+    width: 500px;
+    border: solid 1px rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    box-shadow: 5px 2px 5px #888888;
+    
+
+}
+
+.microphone-icon {
+    margin-left: auto;
+    padding: 8px;
+    padding-right: 15px;
+
+}
+
+.google-search {
+    color: gray;
+    padding: 10px;
+    margin-right: 10px;
+}
