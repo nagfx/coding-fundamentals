@@ -1,0 +1,77 @@
+
+//name of function variable being string
+function reverseAString(str) {
+
+//first of all let's initialize a variable to store string
+    let reversedString = "";
+//then set a for loop to display the last index of a string
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversedString += str[i];
+    }
+//finally return the updated Reversed String
+    return reversedString;
+}
+
+
+//the function is known as checking a palindrome,
+function checkPalindrome(string) {
+//firstly we   
+    const word = string.length;
+
+    // loop through half of the string
+    for (let i = 0; i < word/ 2; i++) {
+
+        // check if first and last string are same
+        if (string[i] !== string[word - 1 - i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+
+function reverseInt(num)
+{
+	num = num + "";
+	return num.split("").reverse().join("");
+}
+
+
+
+function sumArr(arr) {
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+For Angry Grandma pseudo code
+take in a sentence stored in a variable
+
+convert to upperstring 
+then check for which index in string has space
+push "!! " into that and replace with space
+then return the updated string
+
+
+whatIsMissing function
+
+function whatIsMissing(str) {
+    let alphabets = "abcdefghijklmnopqrstuvwxyz";
+    let startingPoint = alphabets.indexOf(str[0]);
+
+    for (let i = 0; i < str.length + 1; i++) {
+        if (str[i] !== alphabet[startingPoint + i]) {
+            return alphabet[startingPoint + i];
+        }
+    }
+    return undefined;
+}
+
+
+Take the arguments,
+check for the char in the 2nd argument if it is uppercase or lowercase
+then apply the toUpperCase() or toLowerCase function if the char is upper or lower case respectively
+replace the chars that match in 2nd argument with chars from 3rd Argument after case matching is applied
+return the updated string

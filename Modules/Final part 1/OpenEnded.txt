@@ -1,0 +1,40 @@
+1) We need a loop to repeat the same instruction automatically. It is easier to write 1-100 with a loop than
+writing 
+console.log("1")
+console.log("2")
+console.log("3")
+
+a loop can be written easily 
+
+in JS we can use a for loop, 
+
+for (let i = 1; i<=100; i++) {
+console.log(i);
+
+this code will output numbers 1 - 100.
+Loops get the job done easier in automation.
+
+2) console.log() displays and return outputs the values from a function.
+
+console.log("the sum of 2+2 is")
+sum(2,2) // Sum of 2+2
+
+function sum(a,b) {
+return a+b
+}
+
+output 
+the sum of 2+2 is
+4
+
+3) They are boolean values, true or false. We can flag these values
+let namanIsHome = true;
+
+we can set this variable to be true when naman is home,
+but set it false when Naman isn't home. We can use booleans
+in conjunction with buttons to hide or display content and
+change states and much more.
+
+4) The Internet is a web of computers connected to each other, servers and clients, the server is requested by client to display content and the server then processes the request and displays the content.
+
+5) A simple website is made up of html which is a markup language, the skeleton, then the clothes/design is made of CSS a styling sheet. A website itself has a URL (uniform resource locator) an address by which you access it through the Internet. A more functional website will make use of JS which is the logic. So using online calculators to calculate your tax, uses Javascript to process and evaluate fields of data.
